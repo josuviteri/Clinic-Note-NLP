@@ -1,4 +1,0 @@
-Modelo,Cobertura Vocabulario (%),Cobertura Tokens (%),Palabras Encontradas,Palabras No Encontradas
-Word2Vec (Google News),94.2,75.32,4091,252
-GloVe (Wiki Gigaword),94.84,95.85,4119,224
-FastText (Wiki News),95.35,99.31,4141,202
