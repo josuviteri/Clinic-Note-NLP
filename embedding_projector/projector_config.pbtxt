@@ -1,0 +1,11 @@
+embeddings {
+  tensor_name: "elmo"
+  tensor_path: "elmo_embeddings_tsv.tsv"
+  metadata_path: "elmo_metadata.tsv"
+}
+
+embeddings {
+  tensor_name: "clinical_bert"
+  tensor_path: "clinical_bert_embeddings_tsv.tsv"
+  metadata_path: "clinical_bert_metadata.tsv"
+}
