@@ -1,2 +1,5 @@
 .venv_nlp/
 .vscode/settings.json
+third_delivery/classification/logs/
+third_delivery/classification/finetuned_clinicalbert/
+third_delivery/classification/results_clinicalbert/
