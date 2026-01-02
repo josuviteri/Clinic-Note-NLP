@@ -2,7 +2,7 @@
 
 CONCLUSIONES
 
-Este documento ranna la reflexión de los aspectos que hemos tratado una vez terminado el proceso de experimentación, no entra en profundidad en cada tema, simplemente explica los temas tratados en cada documento.
+Este documento narra la reflexión de los aspectos que hemos tratado una vez terminado el proceso de experimentación, no entra en profundidad en cada tema, simplemente explica los temas tratados en cada documento.
 El documento "explicación_entrega_3.ipynb", es una declaración de objetivos previos al inicio a abordar el proyecto.
 
 Esta entrega ("third_delivery") cubre varios aspectos de nuetro proyecto:
