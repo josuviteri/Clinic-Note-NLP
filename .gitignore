@@ -3,3 +3,7 @@
 third_delivery/classification/logs/
 third_delivery/classification/finetuned_clinicalbert/
 third_delivery/classification/results_clinicalbert/
+
+fourth_delivery/classification/full_finetune/results_distilbert/
+fourth_delivery/classification/full_finetune/logs/
+fourth_delivery/classification/full_finetune/finetuned_distilbert/
