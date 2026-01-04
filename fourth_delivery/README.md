@@ -1,22 +1,21 @@
-Objetivos de la cuarta entrega
+## Objectives for the Fourth Deliverable
 
-Elegir, aplicar, evaluar y comparar modelos basados en transformers, procedentes de la plataforma hugging face, a nuestras tareas de clasificación y resumen de textos clínicos, basándonos en nuestas limitaciones de hardware (6/12 GB VRAM).
+Select, apply, evaluate, and compare transformer-based models from the Hugging Face platform for our clinical text classification and summarization tasks, taking into account our hardware constraints (6/12 GB VRAM).
 
-Modelo de clasificación basdado en transformers:
-distilbert-base-uncased (DistilBERT)
+Transformer-based Classification Model: `distilbert-base-uncased (DistilBERT)`
 
-Modelo de resumen basado en transformers:
-t5-small (text-to-text)
+Transformer-based Summarization Model: `t5-small (text-to-text)`
 
-Estrategia:
+### Strategy:
 
-Volver a utilizar el preprocessing de la tercera entrega para poder comparar los modelos de forma justa
+Reuse the preprocessing pipeline from the third deliverable and clean the memory between trainings to ensure a fair comparison between models.
 
-Para ambas tareas:
+For both tasks: Compare the performance differences between full fine-tuning and partial fine-tuning (frozen weights).
 
-Comprobar la diferencia entre el full fine-tuning y el fine-tuning parcial con pesos congelados de los modelos basados en transformers para cada una de las dos tareas.
+### Evaluation Methods:
 
-Metodos de evaluación: 
-Clasificación: accuracy, precision/recall, F1 score y confusion matrix. 
+Classification: Accuracy, Precision/Recall, F1 Score, Confusion Matrix.
 
-Resumen: ROUGE y BERTScore. Además de comparar con los baselines de la anterior entrega TF-IDF + TextRank, resultados del LSTM results y Clinical BERT.
+Summarization: ROUGE and BERTScore. Additionally, will compare these against the baselines from the previous deliverable (TF-IDF + TextRank), as well as the LSTM and Clinical BERT results.
+
+For all the produced models, inference tests will be runned using validation sets, mostly useful in the classification task.
