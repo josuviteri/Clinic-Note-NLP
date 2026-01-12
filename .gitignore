@@ -8,3 +8,5 @@ fourth_delivery/classification/results_distilbert/
 fourth_delivery/classification/results_distilbert_frozen/
 fourth_delivery/classification/finetuned_distilbert/
 fourth_delivery/cnn_classification/best_bilstm_classifier.keras
+
+fourth_delivery/raspberry_llm_lab/distilGPT2_medical_dialogue
