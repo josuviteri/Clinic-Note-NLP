@@ -51,7 +51,7 @@ Each dataset contains clinical dialogues with corresponding section headers and 
     ├── transformers_sumarisation/
     │   └── transformers_summarisation.ipynb   # T5-small summarization
     └── raspberry_llm_lab/
-        └── gemma2_2b.ipynb           # Gemma 2B model experiments
+        └── distilGPT2.ipynb           # Distil GPT 2 model experiments
 ```
 
 ## 🚀 Installation
@@ -116,7 +116,7 @@ pip install -r requirements.txt
 
 #### Additional Experiments
 - Bidirectional LSTM architectures
-- Gemma 2B model exploration
+- Distil GPT2 model exploration
 
 ## 📈 Evaluation Metrics
 
@@ -146,7 +146,7 @@ pip install -r requirements.txt
 - DistilBERT
 - T5-small
 - ELMo
-- Gemma 2B
+- distil-GPT2
 - Custom Clinical Word2Vec
 
 ## 💻 Usage
@@ -192,9 +192,9 @@ See [LICENSE](LICENSE) file for details.
 
 - MEDIQA 2023 Challenge organizers for providing the datasets
 - Hugging Face for their transformers library and model hub
-- Clinical-BERT authors for domain-specific pre-trained models
+- Clinical-BERT, T5 and distil-GPT2 authors for domain-specific pre-trained models
 
-## 📧 Contact
+## 📧 Reference
 
 For more specific information about this project, please refer to the individual delivery README files:
 - [Third Delivery](third_delivery/README.md)
